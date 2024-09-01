@@ -387,7 +387,7 @@ function cyanPageAnimation() {
 function humanSplitAnimation() {
     var clutter = "";
     document.querySelector(".human").textContent.split("").forEach(function (elem) {
-        clutter += `<span class="inline-block opacity-0 font-['Neue_Machina_Light'] ">${elem}</span>`;
+        clutter += `<span class="inline-block opacity-0 font-['Neue_Machina'] font-[400] ">${elem}</span>`;
     });
 
     document.querySelector(".human").innerHTML = clutter;
@@ -417,7 +417,7 @@ function realSplitAnimation() {
     document.querySelector(".real").textContent.split("").forEach(function (elem) {
         if (elem === " ") clutter += `<span>&nbsp;</span>`
 
-        clutter += `<span class="inline-block opacity-0 font-['Neue_Machina_Light'] ">${elem}</span>`;
+        clutter += `<span class="inline-block opacity-0  ">${elem}</span>`;
     });
 
     document.querySelector(".real").innerHTML = clutter;
@@ -450,7 +450,7 @@ function impactSplitAnimtion() {
     .forEach(function (elem) {
         if (elem === " ") clutter += `<span>&nbsp;</span>`
 
-        clutter += `<span class="inline-block opacity-0 font-['Neue_Machina_Light'] ">${elem}</span>`;
+        clutter += `<span class="inline-block opacity-0  ">${elem}</span>`;
     });
 
     document.querySelector(".real2").innerHTML = clutter;
@@ -480,7 +480,7 @@ function exploreSplitAnimation() {
     var clutter = "";
     document.querySelector(".explore").textContent.split("").forEach(function (elem) {
         if (elem === " ") clutter += `<span>&nbsp;</span>`
-        clutter += `<span class="inline-block opacity-0 font-['Neue_Machina_Light']">${elem}</span>`;
+        clutter += `<span class="inline-block opacity-0 ">${elem}</span>`;
     });
 
     document.querySelector(".explore").innerHTML = clutter;
@@ -542,7 +542,7 @@ function buildSplitAnimation() {
         if (elem === " ") clutter += `<span>&nbsp;</span>`
 
 
-        clutter += `<span class="inline-block opacity-0 font-['Neue_Machina_Light']  ">${elem}</span>`;
+        clutter += `<span class="inline-block opacity-0   ">${elem}</span>`;
     });
 
     document.querySelector(".build").innerHTML = clutter;
@@ -572,7 +572,7 @@ function signSplitAnimation() {
     var clutter = "";
     document.querySelector(".sign").textContent.split("").forEach(function (elem) {
         if (elem === " ") clutter += `<span>&nbsp;</span>`
-        clutter += `<span class="inline-block opacity-0 font-['Neue_Machina_Light']">${elem}</span>`;
+        clutter += `<span class="inline-block opacity-0 ">${elem}</span>`;
     });
 
     document.querySelector(".sign").innerHTML = clutter;

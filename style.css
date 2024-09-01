@@ -88,6 +88,30 @@ html, body {
 
 }
 
+.human span{
+   font-family: Machina Lite;
+}
+
+.real span{
+   font-family: Machina Lite;
+}
+
+.real2 span{
+   font-family: Machina Lite;
+}
+
+.explore span{
+   font-family: Machina Lite;
+}
+
+.build span{
+   font-family: Machina Lite;
+}
+
+.sign span{
+   font-family: Machina Lite;
+}
+
 #marqueeContainer #row h1{
    font-family: Neue Machina;
 }
